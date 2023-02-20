@@ -1,8 +1,0 @@
-[
-  {
-    "name": "TMS2009",
-    "refreshToken": "M.R3_BL2.-CbkzIkvpChcOh3CPPZj*erc2XhbJrn0GkmQ*6tHpZ22AJ7niXM3C1xpzcydea5Yn48MC6ZMdJorOBWE*xrg*nuOvMfzFxcq!c595SRNHyi1ha03NpMNL84l8m*Q!oYfklzZVjOF3lhEVhypmyfkrlhUIe7PrwqvZ18jyWge7A5m1vJi9kBye24ILvLRI6Jwm*r3Z*uVBKj4x7KvqwSlJAiIXnF8EKApGb0qPaYPLfi0hw3zgUhl!qWA!dgSArtEKjEOTiaGikmt7hSeAaJaOCO765r!9XqLKcJzKVh733DB3G6yRPok4wowfT9zMk0TJ4gnHCHg7HFPMtX30CFfQLmObraNUPDHeA3LmdIqAIihMbRkQav3WnK5zXB5Rneb7tA$$",
-    "authMethod": "AZURE_APP",
-    "type": "me.liuli.elixir.account.MicrosoftAccount"
-  }
-]

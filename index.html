@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Initialize viewport and encoding -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- Load CSS and JS -->
+    <link rel="stylesheet" href="./src/styles.css"/>
+    <script type="module" src="./src/main.ts" defer></script>
+
+    <!-- Load bootstrap -->
+    <link rel="stylesheet" href="./src/assets/bootstrap/bootstrap.css"/>
+    <link rel="stylesheet" href="./src/assets/bootstrap/bootstrap.rtl.css"/>
+    <link rel="stylesheet" href="./src/assets/bootstrap/bootstrap-grid.css"/>
+    <link rel="stylesheet" href="./src/assets/bootstrap/bootstrap-grid.rtl.css"/>
+    <link rel="stylesheet" href="./src/assets/bootstrap/bootstrap-reboot.css"/>
+    <link rel="stylesheet" href="./src/assets/bootstrap/bootstrap-reboot.rtl.css"/>
+    <link rel="stylesheet" href="./src/assets/bootstrap/bootstrap-utilities.css"/>
+    <link rel="stylesheet" href="./src/assets/bootstrap/bootstrap-utilities.rtl.css"/>
+
+    <!-- Set title -->
+    <title>Zarzul</title>
+
+    <!-- Google Fonts (M PLUS Rounded 1c) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="./src/assets/font/m-plus-rounded-1c.css" rel="stylesheet">
+</head>
+
+<body class="bg-black">
+<header class="bg-black border-bottom border-dark text-white d-flex align-items-center
+               justify-content-between py-3 px-2 select-off">
+    <h1 class="m-plus-rounded-1c-regular mb-0">
+        Zarzul
+    </h1>
+</header>
+
+<main class="container text-center my-5 bg-bl select-off">
+    <h1 class="text-white">
+        Welcome to Zarzul!
+    </h1>
+
+    <p class="tiny">
+        Click "Run" to begin the background processes!
+    </p>
+
+    <form id="run-wrapper" class="mt-3">
+        <button>
+            Start
+        </button>
+    </form>
+
+    <p id="run-result" class="mt-3 text-white select-on">
+    </p>
+</main>
+</body>
+</html>

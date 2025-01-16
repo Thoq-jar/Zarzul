@@ -2,6 +2,9 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     font-size: 16px;
 
+    color: #ffffff;
+    background-color: #000000;
+
     font-synthesis: none;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -9,18 +12,49 @@
     -webkit-text-size-adjust: 100%;
 }
 
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
     height: 100vh;
 }
 
+header {
+    border-bottom: 1px solid #222222;
+    width: 100%;
+    height: 4vh;
+    padding-top: 0.4rem;
+    padding-bottom: 0.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-family: "M PLUS Rounded 1c", inherit, sans-serif;
+    font-size: 2rem;
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.container {
+    margin: 0;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
 button {
-    background-color: #ffffff ;
+    background-color: #ffffff;
     color: #000000;
-    border: none;
-    border-radius: 5px !important;
-    padding: 0.5rem 1rem !important;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
     transition: background-color 0.2s ease-in-out;
 
     user-select: none;
@@ -39,7 +73,7 @@ button:hover {
 }
 
 .m-plus-rounded-1c-regular {
-    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-family: "M PLUS Rounded 1c", serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -50,11 +84,4 @@ button:hover {
     -moz-user-select: none;
     -ms-user-select: none;
     cursor: default;
-}
-
-.select-on {
-    user-select: all;
-    -webkit-user-select: all;
-    -moz-user-select: all;
-    -ms-user-select: all;
 }
